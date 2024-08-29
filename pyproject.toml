@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "arcedit"
+version = "0.1.0"
+description = "A command line utility to browse and manipulate files and folders inside of an archive."
+authors = ["Ali Samji <aisamji@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.2"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
